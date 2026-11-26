@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block titulo %}Menú principal{% endblock %}
+
+{% block contenido %}
+<main>
+    <nav class="menu" aria-label="Menú principal">
+        <a class="opcion opcion-compras" href="{{ url_for('ejercicio1') }}">Ejercicio 1</a>
+        <a class="opcion opcion-sesion" href="{{ url_for('ejercicio2') }}">Ejercicio 2</a>
+    </nav>
+</main>
+{% endblock %}
